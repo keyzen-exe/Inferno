@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-family: "DM Serif Display", serif;
     font-size: 85px;
 
 }
-h2{
+
+h2 {
     font-family: "DM Serif Display", serif;
     font-size: 50px;
 
 }
-h3{
+
+h3 {
     font-family: "DM Serif Display", serif;
     font-size: 22px;
-    
+
 }
 
-p{
+p {
     font-family: "Jost", sans-serif;
     font-size: 22px;
 }
@@ -50,7 +54,7 @@ li {
 }
 
 .container {
-    max-width:1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -72,36 +76,37 @@ header {
     background-image: url("assets/Banner.jpg");
     height: 100vh;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 0 0 0 200px;
 }
 
-.width30{
-width: 30%;
+.width30 {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
 }
 
-.width45{
-width: 45%;
+.width45 {
+    width: 45%;
 }
 
-.margin{
-margin-top: 100px;
-margin-bottom: 100px;
+.margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.width45{
-width: 45%;
+.width45 {
+    width: 45%;
 }
 
-.radius{
+.radius {
     border-radius: 0 300px 0 150px;
 }
 
-.margintop30{
+.margintop30 {
     margin-top: 30px;
 }
 
-.cercle{
+.cercle {
     background-color: #F4F0EC;
     width: 64px;
     height: 64px;
@@ -109,4 +114,78 @@ width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
+
+.bold {
+    font-weight: 700;
+}
+
+.bouton{
+    background-color: black;
+    color: white;
+    padding: 26px 31px;
+    border: none;
+    border-radius: 18px;
+    font-size: 16;
+    margin-top: 45px;
+    display: inline-block;
+}  
+
+.width100{
+    width: 100%;
+}
+
+.textalign{
+    text-align: center;
+}
+
+.bkcard{
+    background-color: #F4F0EC
+}
+.card {
+    padding: 16px;
+    border-radius: 30px;
+    width: 31%;
+}
+.margintop100{
+    margin-top: 100px;
+}
+
+.padding100{
+padding: 64px 0;
+}
+.marginright
+{
+    margin-right: 20px;
+}
+
+.padding150{
+    padding: 150px 0;
+}
+
+.bkcard2{
+    background-color: white;
+}
+
+.nosProjet{
+    background-color: red;
+    padding: 24px;
+}
+
+.radiusimg1{
+    border-radius: 0 0 0 0;
+}
+
+.radiusimg2{
+    border-radius: 0 0 0 0;
+}
+
+.radiusimg3{
+    border-radius: 0 0 0 0;
+}
+
+.radiusimg4{
+    border-radius: 0 0 0 0;
+}
+
